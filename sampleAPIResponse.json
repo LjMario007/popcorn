@@ -1,0 +1,25 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": "\nI love Orville Redenbacher popcorn because it is the perfect movie night snack. The popcorn is light and fluffy and always pops perfectly. I also love the variety of flavors, from classic butter to cheddar cheese. Plus, the popcorn is made with real ingredients and has no artificial flavors or preservatives, making it a healthier choice than other snack options. The convenience of the microwaveable pouches also makes it a great go-to for a quick snack. I love the classic Orville Redenbacher popcorn because it is the perfect combination of taste, convenience, and health."
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "text": "\nI love Orville Redenbacher popcorn because it is the perfect combination of crunchy, salty, and buttery flavor. The popcorn pops consistently and has a great texture, making it the perfect snack for movie nights or just a late night snack. What I love most about Orville Redenbacher popcorn is that it is so easy to make. All you need to do is pour it into a microwave-safe bowl, add some oil and seasonings, and pop it for a few minutes. No fuss, no mess, and no complicated recipes! Plus, it's a much healthier option than many of the other snacks out there. Orville Redenbacher popcorn has become a staple in my home, and I love it for its convenience, flavor, and healthiness."
+    }
+  ],
+  "created": 1670098570,
+  "id": "cmpl-6JTDeCprcR276qlT5epBzgLEOER2R",
+  "model": "text-davinci-003",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 281,
+    "prompt_tokens": 18,
+    "total_tokens": 299
+  }
+}
