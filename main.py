@@ -56,7 +56,7 @@ fullName = userData["fullName"] # pull user info
 email = userData["email"]
 province = userData["province"]
 essays = getEssayList(essayFilePath)
-ontarioTime = dt.timezone(dt.timedelta(hours=-5.0))
+ontarioTime = timezone(timedelta(hours=-5.0))
 schedule = Scheduler(tzinfo=ontarioTime)
 random.seed(datetime.now().timestamp())
 
