@@ -8,14 +8,14 @@ numberOfEssays = 60
 
 response = openai.Completion.create(
   model="text-davinci-003",
-  prompt="Write an essay over 100 words on why you love Orville Redenbacher popcorn.\n",
+  prompt=
+  "Write an essay over 100 words on why you love Orville Redenbacher popcorn.\n",
   temperature=0.85,
   max_tokens=256,
   top_p=1,
   n=numberOfEssays,
   frequency_penalty=0,
-  presence_penalty=0
-)
+  presence_penalty=0)
 
 # Creates the library for all the essays "index": essay
 data = {}

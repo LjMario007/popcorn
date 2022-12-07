@@ -1,5 +1,9 @@
 { pkgs }: {
   deps = [
+    pkgs.killall
+    pkgs.htop
+    pkgs.python310
+    pkgs.sudo
     pkgs.python38Full
     pkgs.chromium
     pkgs.chromedriver
