@@ -85,6 +85,7 @@ def scheduledSubmission():
 while True:
     # Checks whether a scheduled task
     # is pending to run or not
+  scheduledSubmission()
     schedule.exec_jobs()
     time.sleep(1)
 
