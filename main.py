@@ -59,7 +59,7 @@ province = userData["province"]
 essays = getEssayList(essayFilePath)
 ontarioTime = timezone(timedelta(hours=-5.0))
 schedule = Scheduler(tzinfo=ontarioTime)
-random.seed(datetime.now().timestamp())
+random.seed(datetime.datetime.now().timestamp())
 
 def scheduledSubmission():
   # everday this is run
