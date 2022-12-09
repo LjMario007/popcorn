@@ -9,6 +9,7 @@ python = ">=3.9,<4.0"
 numpy = "^1.22.2"
 selenium = "^4.7.2"
 scheduler = "^0.8.2"
+schedule = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 

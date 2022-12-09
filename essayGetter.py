@@ -1,7 +1,7 @@
 import json
 import openai
 import os
-
+## REPLACE ANY ESCAPE CODES (ie \u2014) with corresponding characters
 openai.api_key = os.environ['api_key']
 
 numberOfEssays = 60
@@ -38,7 +38,7 @@ for i in range(len(data)):
 
 # Dumps essays with coresponding indecies in json file
 essayFile = open("leif2AIEssays.json", "w")
-json.dump(data, essayFile)
+json.dump(data, essayFile, indent=4)
 essayFile.close()
 
 print(badEssayIndicies)
