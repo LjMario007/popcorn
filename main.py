@@ -67,9 +67,9 @@ def submitContestEntry(name, email, province, essay):
         i.click()  # click ALL the checkboxes
     driver.save_screenshot("filled " + str(datetime.datetime.now(timezone(timedelta(hours=-5.0)))) + ".png")
     if activatedMode:
-      driver.find_element(By.CLASS_NAME, "btn").click() # submit form (eek)
+      driver.find_element(By.XPATH, "/html/body/div/div/main/div/div/div/form/div[7]/button").click() # submit form (eek)
       print("----> FORM SUBMITTED FOR REALSIES!")
-      sleep(3)
+      time.sleep(3)
     else:
       print("----> FORM NOT ACTUALLY SUBMITTED, activatedMode = false")
     driver.save_screenshot("submitted " + str(datetime.datetime.now(timezone(timedelta(hours=-5.0)))) + ".png")
