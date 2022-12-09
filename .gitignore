@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # popcornmachine cruft
-submitted*
 filled*
+submitted*
