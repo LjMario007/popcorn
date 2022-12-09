@@ -69,6 +69,7 @@ def submitContestEntry(name, email, province, essay):
     if activatedMode:
       driver.find_element(By.CLASS_NAME, "btn").click() # submit form (eek)
       print("----> FORM SUBMITTED FOR REALSIES!")
+      sleep(3)
     else:
       print("----> FORM NOT ACTUALLY SUBMITTED, activatedMode = false")
     driver.save_screenshot("submitted " + str(datetime.datetime.now(timezone(timedelta(hours=-5.0)))) + ".png")
